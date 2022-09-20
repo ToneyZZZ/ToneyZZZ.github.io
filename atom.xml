@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-09-20T07:19:09.089Z</updated>
+  <updated>2022-09-20T07:31:29.984Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -20,8 +20,8 @@
     <title>开发日志</title>
     <link href="http://example.com/2022/09/20/%E5%BC%80%E5%8F%91%E6%97%A5%E5%BF%97/"/>
     <id>http://example.com/2022/09/20/%E5%BC%80%E5%8F%91%E6%97%A5%E5%BF%97/</id>
-    <published>2022-09-20T07:07:08.000Z</published>
-    <updated>2022-09-20T07:19:09.089Z</updated>
+    <published>2022-09-20T07:31:08.000Z</published>
+    <updated>2022-09-20T07:31:29.984Z</updated>
     
     <content type="html"><![CDATA[<h2 id="日志-9-18-2022"><a href="#日志-9-18-2022" class="headerlink" title="日志 - 9.18.2022:"></a>日志 - 9.18.2022:</h2><ol><li>「安娜」第一次开始运行。</li><li>加入好感度系统：<ul><li>一个时刻储存的好感度数据库。</li></ul></li><li>加入每日投喂功能：<ul><li>输入[投喂]以随机获得好感度；</li><li>每天安娜只接受一个用户投喂的第一次。</li></ul></li><li>加入查询好感度功能：<ul><li>输入[查询好感度]以查询安娜a对你的好感度。</li></ul></li><li>[戳一戳]随机加减好感。</li></ol><h2 id="日志-9-19-2022"><a href="#日志-9-19-2022" class="headerlink" title="日志 - 9.19.2022:"></a>日志 - 9.19.2022:</h2><ol><li><p>划分好感度等级：</p><table><thead><tr><th align="left">不喜欢</th><th align="left">陌生</th><th align="left">信任</th><th align="left">亲切</th><th align="left">喜欢</th></tr></thead><tbody><tr><td align="left">0-</td><td align="left">0-25</td><td align="left">25-150</td><td align="left">150-400</td><td align="left">400+</td></tr></tbody></table></li></ol>]]></content>
     
@@ -35,6 +35,8 @@
     
     
     
+    
+    <category term="开发日志" scheme="http://example.com/tags/%E5%BC%80%E5%8F%91%E6%97%A5%E5%BF%97/"/>
     
   </entry>
   
