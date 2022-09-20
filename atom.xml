@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-09-20T13:24:52.320Z</updated>
+  <updated>2022-09-20T13:51:05.911Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://example.com/2022/09/20/%E7%AE%80%E5%8D%95%E5%AF%B9%E8%AF%9D%E6%A8%A1%E5%9D%97%20v1.0/"/>
     <id>http://example.com/2022/09/20/%E7%AE%80%E5%8D%95%E5%AF%B9%E8%AF%9D%E6%A8%A1%E5%9D%97%20v1.0/</id>
     <published>2022-09-20T13:05:55.000Z</published>
-    <updated>2022-09-20T13:24:52.320Z</updated>
+    <updated>2022-09-20T13:51:05.911Z</updated>
     
     <content type="html"><![CDATA[<h2 id="日志-9-20-2022"><a href="#日志-9-20-2022" class="headerlink" title="日志 - 9.20.2022"></a>日志 - 9.20.2022</h2><ol><li>加入了一个简单的全匹配问答数据库。</li><li>可以保持运行状态更新数据库:<ul><li>目前仅能由<code>SUPERUSER</code>手动用指令更新。</li></ul></li></ol>    <figure class="figure-image">      <img src="https://s1.ax1x.com/2022/09/20/xP218f.jpg" alt="成功添加の情景" loading="lazy" />      <figcaption>成功添加の情景</figcaption>    </figure>  <ol start="3"><li>加入「我问你答」增加对话的功能:<ul><li>用户可以用指令形式发送<code>#你问...我答...</code> ;</li><li>成功后会被收进临时储存列表;</li><li><code>超级用户</code>将临时储存对话检查后加入对话数据库里.</li></ul></li></ol>]]></content>
     
@@ -44,7 +44,7 @@
     <link href="http://example.com/2022/09/20/%E5%A5%BD%E6%84%9F%E5%BA%A6%E6%A8%A1%E5%9D%97%20v1.0/"/>
     <id>http://example.com/2022/09/20/%E5%A5%BD%E6%84%9F%E5%BA%A6%E6%A8%A1%E5%9D%97%20v1.0/</id>
     <published>2022-09-20T07:31:08.000Z</published>
-    <updated>2022-09-20T13:29:50.346Z</updated>
+    <updated>2022-09-20T13:51:09.405Z</updated>
     
     <content type="html"><![CDATA[<h2 id="日志-9-18-2022"><a href="#日志-9-18-2022" class="headerlink" title="日志 - 9.18.2022:"></a>日志 - 9.18.2022:</h2><ol><li>「安娜」第一次开始运行。</li><li>加入好感度系统：<ul><li>一个时刻储存的好感度数据库。</li></ul></li><li>加入每日投喂功能：<ul><li>输入[投喂]以随机获得好感度；</li><li>每天安娜只接受一个用户投喂的第一次。</li></ul></li><li>加入查询好感度功能：<ul><li>输入[查询好感度]以查询安娜a对你的好感度。</li></ul></li><li>[戳一戳]随机加减好感。</li></ol><h2 id="日志-9-19-2022"><a href="#日志-9-19-2022" class="headerlink" title="日志 - 9.19.2022:"></a>日志 - 9.19.2022:</h2><ol><li><p>加入好感度等级：</p><table><thead><tr><th align="left">不喜欢</th><th align="left">陌生</th><th align="left">信任</th><th align="left">亲切</th><th align="left">喜欢</th></tr></thead><tbody><tr><td align="left">0-</td><td align="left">0-25</td><td align="left">25-150</td><td align="left">150-400</td><td align="left">400+</td></tr></tbody></table></li></ol><h2 id="「计划中」"><a href="#「计划中」" class="headerlink" title="「计划中」"></a>「计划中」</h2><ol><li>更改戳一戳机制，加入「玩心」：<ul><li>「玩心」高低会影响戳一戳获得的好感度期望值；</li><li>「玩心」会随时间积累，并被任何人的互动消耗；</li><li>用户可以实时查阅「玩心」数值。</li></ul></li></ol>]]></content>
     
