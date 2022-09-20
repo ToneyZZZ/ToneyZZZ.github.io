@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-09-20T04:45:43.445Z</updated>
+  <updated>2022-09-20T07:07:08.454Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,19 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>好感度</title>
+    <link href="http://example.com/2022/09/20/%E5%A5%BD%E6%84%9F%E5%BA%A6/"/>
+    <id>http://example.com/2022/09/20/%E5%A5%BD%E6%84%9F%E5%BA%A6/</id>
+    <published>2022-09-20T07:07:08.000Z</published>
+    <updated>2022-09-20T07:07:08.454Z</updated>
+    
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>
@@ -29,26 +42,6 @@
       
       
     <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title></title>
-    <link href="http://example.com/2022/09/20/%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97/"/>
-    <id>http://example.com/2022/09/20/%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97/</id>
-    <published>2022-09-19T17:42:12.186Z</published>
-    <updated>2022-09-19T17:42:12.186Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="安娜的开发日志"><a href="#安娜的开发日志" class="headerlink" title="安娜的开发日志"></a>安娜的开发日志</h1><h2 id="功能日志-9-18-2022"><a href="#功能日志-9-18-2022" class="headerlink" title="功能日志 - 9.18.2022:"></a>功能日志 - 9.18.2022:</h2><ol><li>「安娜」第一次开始运行。</li><li>加入好感度系统：<ul><li>一个时刻储存的好感度数据库。</li></ul></li><li>加入每日投喂功能：<ul><li>输入[投喂]以随机获得好感度；</li><li>每天安娜只接受一个用户投喂的第一次。</li></ul></li><li>加入查询好感度功能：<ul><li>输入[查询好感度]以查询安娜对你的好感度。</li></ul></li><li>[戳一戳]随机加减好感。</li></ol><h2 id="功能日志-9-19-2022"><a href="#功能日志-9-19-2022" class="headerlink" title="功能日志 - 9.19.2022:"></a>功能日志 - 9.19.2022:</h2><ol><li><p>划分好感度等级：</p><table><thead><tr><th align="left">不喜欢</th><th align="left">陌生</th><th align="left">信任</th><th align="left">亲切</th><th align="left">喜欢</th></tr></thead><tbody><tr><td align="left">0-</td><td align="left">0-25</td><td align="left">25-150</td><td align="left">150-400</td><td align="left">400+</td></tr></tbody></table></li></ol><h2 id="计划中（画饼）"><a href="#计划中（画饼）" class="headerlink" title="计划中（画饼）:"></a>计划中（画饼）:</h2><ol><li>更改戳一戳机制，加入「玩心」：<ul><li>「玩心」高低会影响戳一戳获得的好感度期望值；</li><li>「玩心」会随时间积累，并被任何人的互动消耗；</li><li>用户可以实时查阅「玩心」数值。</li></ul></li><li>第二个插件，回应打招呼插件</li><li>第三个插件，处理入群出群插件</li><li>第四个插件，简单对话插件</li></ol>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h1 id=&quot;安娜的开发日志&quot;&gt;&lt;a href=&quot;#安娜的开发日志&quot; class=&quot;headerlink&quot; title=&quot;安娜的开发日志&quot;&gt;&lt;/a&gt;安娜的开发日志&lt;/h1&gt;&lt;h2 id=&quot;功能日志-9-18-2022&quot;&gt;&lt;a href=&quot;#功能日志-9-18-2022&quot; cla</summary>
       
     
     
