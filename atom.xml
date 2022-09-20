@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-09-20T13:54:10.249Z</updated>
+  <updated>2022-09-20T14:15:36.426Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="http://example.com/2022/09/20/%E7%AE%80%E5%8D%95%E5%AF%B9%E8%AF%9D%E6%A8%A1%E5%9D%97%20v1.0/"/>
     <id>http://example.com/2022/09/20/%E7%AE%80%E5%8D%95%E5%AF%B9%E8%AF%9D%E6%A8%A1%E5%9D%97%20v1.0/</id>
     <published>2022-09-20T13:05:55.000Z</published>
-    <updated>2022-09-20T13:54:10.249Z</updated>
+    <updated>2022-09-20T14:15:36.426Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="日志-9-20-2022"><a href="#日志-9-20-2022" class="headerlink" title="日志 - 9.20.2022"></a>日志 - 9.20.2022</h2><ol><li><p>加入了一个简单的全匹配问答数据库。</p></li><li><p>可以保持运行状态更新数据库:</p><ul><li>目前仅能由<code>SUPERUSER</code>手动用指令更新。</li></ul></li><li><p>加入「我问你答」增加对话的功能:</p><ul><li>用户可以用指令形式发送<code>#你问...我答...</code> ;</li><li>成功后会被收进临时储存列表;</li><li><code>超级用户</code>将临时储存对话检查后加入对话数据库里.</li></ul></li></ol>    <figure class="figure-image">      <img src="https://s1.ax1x.com/2022/09/20/xP218f.jpg" alt="成功添加の情景" loading="lazy" />      <figcaption>成功添加の情景</figcaption>    </figure>  <p><del>锐意咕咕中</del></p>]]></content>
+    <content type="html"><![CDATA[<h2 id="日志-9-20-2022"><a href="#日志-9-20-2022" class="headerlink" title="日志 - 9.20.2022"></a>日志 - 9.20.2022</h2><ol><li><p>加入了一个简单的全匹配问答数据库。</p></li><li><p>可以保持运行状态更新数据库:</p><ul><li>目前仅能由<code>SUPERUSER</code>手动用指令更新。</li></ul></li><li><p>加入「我问你答」增加对话的功能:</p><ul><li>用户可以用指令形式发送<code>#你问...我答...</code> ;</li><li>成功后会被收进临时储存列表;</li><li><code>SUPERUSER</code>将临时储存对话检查后加入对话数据库里.</li></ul></li></ol>    <figure class="figure-image">      <img src="https://s1.ax1x.com/2022/09/20/xP218f.jpg" alt="成功添加の情景" loading="lazy" />      <figcaption>成功添加の情景</figcaption>    </figure>  <p><del>锐意咕咕中</del></p>]]></content>
     
     
       
