@@ -1,3 +1,2 @@
-http://example.com/2022/09/20/%E5%A5%BD%E6%84%9F%E5%BA%A6/
-http://example.com/2022/09/20/hello-world/
+http://example.com/2022/09/20/%E5%BC%80%E5%8F%91%E6%97%A5%E5%BF%97/
 http://example.com/
