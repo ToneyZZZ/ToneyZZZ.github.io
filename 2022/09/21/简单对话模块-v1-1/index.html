@@ -24,7 +24,7 @@
 
   
 
-  <title>好感度模块 v1.0 | - Project Anna -</title>
+  <title>简单对话模块 v1.1 | - Project Anna -</title>
 
   
 
@@ -50,7 +50,7 @@
 <!-- header container -->
 <header class="header-container post">
   
-    <div class="post-image" style="background-image: url(/cover6.jpeg)"></div>
+    <div class="post-image" style="background-image: url(cover3.jpeg)"></div>
   
 
   <!-- navbar -->
@@ -99,13 +99,15 @@
     <div class="header-content">
       <div class="post-text layout-block">
         <div class="layout-margin">
-          <h1 class="title-wrap">好感度模块 v1.0</h1>
+          <h1 class="title-wrap">简单对话模块 v1.1</h1>
           <h2 class="title-sub-wrap">
             <strong>T.Z.</strong>
             <span>发布于</span>
-            <time  class="article-date" datetime="2022-09-20T07:31:08.000Z" itemprop="datePublished">2022-09-20</time>
+            <time  class="article-date" datetime="2022-09-21T12:21:00.000Z" itemprop="datePublished">2022-09-21</time>
           </h2>
           <ul class="wrap-list dark">
+  
+    <li><a href="/categories/%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C/">📒 使用手册</a></li>
   
 </ul>
           <ul class="wrap-list dark">
@@ -134,59 +136,115 @@
       
       
       <section class="article-entry markdown-body layout-margin content-padding--large soft-size--large soft-style--box">
-        <h2 id="日志-9-18-2022"><a href="#日志-9-18-2022" class="headerlink" title="日志 - 9.18.2022:"></a>日志 - 9.18.2022:</h2><ol>
-<li>「安娜」第一次开始运行。</li>
-<li>加入好感度系统：<ul>
-<li>一个时刻储存的好感度数据库。</li>
+        <blockquote>
+<p>注：<br>在每一次一个模块开发进入了足够成熟的阶段时，就会发布一个包含使用手册的开发日志，你能在此处找到：</p>
+<ul>
+<li>这个模块贼目前都有什么功能</li>
+<li>如何使用这些功能</li>
 </ul>
-</li>
-<li>加入每日投喂功能：<ul>
-<li>输入[投喂]以随机获得好感度；</li>
-<li>每天安娜只接受一个用户投喂的第一次。</li>
-</ul>
-</li>
-<li>加入查询好感度功能：<ul>
-<li>输入[查询好感度]以查询安娜对你的好感度。</li>
-</ul>
-</li>
-<li>[戳一戳]随机加减好感。</li>
+</blockquote>
+<h2 id="简单对话模块使用手册"><a href="#简单对话模块使用手册" class="headerlink" title="简单对话模块使用手册"></a>简单对话模块使用手册</h2><h3 id="功能"><a href="#功能" class="headerlink" title="功能"></a>功能</h3><ol>
+<li>正常对话：</li>
 </ol>
-<h2 id="日志-9-19-2022"><a href="#日志-9-19-2022" class="headerlink" title="日志 - 9.19.2022:"></a>日志 - 9.19.2022:</h2><ol>
-<li><p>加入好感度等级：</p>
-<table>
-<thead>
-<tr>
-<th>不喜欢</th>
-<th>陌生</th>
-<th>信任</th>
-<th>亲切</th>
-<th>喜欢</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>0-</td>
-<td>0-25</td>
-<td>25-150</td>
-<td>150-400</td>
-<td>400+</td>
-</tr>
-</tbody></table>
-</li>
-</ol>
-<h2 id="「计划中」"><a href="#「计划中」" class="headerlink" title="「计划中」"></a>「计划中」</h2><ol>
-<li>更改戳一戳机制，加入「玩心」：<ul>
-<li>「玩心」高低会影响戳一戳获得的好感度期望值；</li>
-<li>「玩心」会随时间积累，并被任何人的互动消耗；</li>
-<li>用户可以实时查阅「玩心」数值。</li>
+<ul>
+<li><p>这个模块提供的对话是离散的对话，即：</p>
+<ul>
+<li>每一组对话由一个<code>明确</code>的问题和答案组成；</li>
+<li>同一个问题可能有多个答案，但都是<code>确定</code>的答案；</li>
+<li>同一个答案也可能对应多个<code>确定</code>的问题；</li>
+<li><code>确定</code>意味着完全匹配，甚至包括标点符号的半角全角。</li>
 </ul>
 </li>
+<li><p>在群内<code>@小安娜</code>加上你想说的话，如果数据库中存储了对应问题，安娜会给予回应;</p>
+</li>
+<li><p>截止本文发送时，为止安娜的数据库内有17条对话；</p>
+</li>
+<li><p>对话情景样例如下：</p>
+
+    <figure class="figure-image">
+      <img src="https://s1.ax1x.com/2022/09/21/xi7yGQ.jpg" alt="一次完成的对话" loading="lazy" />
+      <figcaption>一次完成的对话</figcaption>
+    </figure>
+  </li>
+</ul>
+<ol start="2">
+<li>添加新的对话库</li>
 </ol>
+<ul>
+<li><p>正如上述所言，目前数据库的对话总量很小。但这<del>并非作者偷懒于此（心虚），而</del>是希望这个对话功能能够由更多个具有高等智慧的头脑一起完成；</p>
+</li>
+<li><p>因此，你可以使用<code>指令</code>来加入新的对话语料，具体操作如下：</p>
+<ul>
+<li><code>#我问</code>在吗<code>你答</code>不在!</li>
+<li>第一个<code>#</code>是指令语句的标志，也可以替换为<code>/</code>;</li>
+<li>之后安娜会自动检查<code>我问</code>和<code>你答</code>两个关键词，请务必以此格式录入对话。<del>否则结果可能会奇奇怪怪!</del></li>
+</ul>
+</li>
+<li><p>成功提交问答的样例：</p>
+
+    <figure class="figure-image">
+      <img src="https://s1.ax1x.com/2022/09/20/xP218f.jpg" alt="成功添加の情景" loading="lazy" />
+      <figcaption>成功添加の情景</figcaption>
+    </figure>
+  
+</li>
+<li><p>关于录入之后：</p>
+<ul>
+<li>你贡献的问答条目会被储存进一个临时列表中；</li>
+<li><code>SUPERUSER</code>(截止目前只有笔者)将删掉部分不合适的条目，并通过指令<code>#检查通过</code>让安娜录入合格的语录；</li>
+<li><strong>每一条通过的问答条目会让贡献者获得安娜的2点好感度。</strong></li>
+</ul>
+</li>
+<li><p>成功的获得好感度会有<code>@通知</code>：</p>
+</li>
+</ul>
+
+    <figure class="figure-image">
+      <img src="https://s1.ax1x.com/2022/09/21/xibihF.jpg" alt="条目检查合格好感提升の通知" loading="lazy" />
+      <figcaption>条目检查合格好感提升の通知</figcaption>
+    </figure>
+  
+
+<ol start="3">
+<li>打招呼插件 - “早！”</li>
+</ol>
+<ul>
+<li>这是一个很朴素的插件，用来打招呼。</li>
+<li>不需要<code>@安娜</code>, 直接在群里发送：<ul>
+<li><code>早上好</code>以及部分类似语句；</li>
+<li><code>晚上好</code>以及部分类似语句。<ul>
+<li><code>晚安</code>与<code>晚上好</code>不是一个意思！</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>会收到安娜<del>热情洋溢</del>的回应。</li>
+<li>很简单，不放图了自己体验叭～</li>
+</ul>
+<h2 id="日志-9-21-2022"><a href="#日志-9-21-2022" class="headerlink" title="日志 - 9.21.2022"></a>日志 - 9.21.2022</h2><blockquote>
+<p>祖宗传统之 —— 总结工作 &amp; 画大饼时间</p>
+</blockquote>
+<ol>
+<li>加入了<code>检查通过</code>指令,条目贡献者可以增加好感度了；</li>
+</ol>
+<ul>
+<li>未来可能会加入自动检测恶意问答的机制；</li>
+<li>可能会加入使用模块陪安娜对话有概率增加好感度的设定。</li>
+</ul>
+<ol start="2">
+<li>加入附属的<code>问好模块</code>。</li>
+</ol>
+<ul>
+<li>接受的问候语仍然较少，以后可能会手动扩充；</li>
+<li>or加入恶意检测以后，用正则表达式扩展。</li>
+</ul>
 
       </section>
 
       
       
         <nav class="article-nav">
+          
           
             <div class="article-nav-item layout-padding">
   <article class="card-container article-nav-card content-padding--primary soft-size--large soft-style--box">
@@ -199,11 +257,10 @@
           <h2 class="card-text--title text-ellipsis">简单对话模块 v1.0</h2>
         </a>
       
-      <div class="card-text--row">Newer</div>
+      <div class="card-text--row">Older</div>
     </div>
   </article>
 </div>
-          
           
         </nav>
       
