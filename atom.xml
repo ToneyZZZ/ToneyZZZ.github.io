@@ -3,11 +3,11 @@
   <title>- Project Anna -</title>
   
   <subtitle>陪安娜踏入广袤的虚拟世界吧</subtitle>
-  <link href="http://example.com/atom.xml" rel="self"/>
+  <link href="http://toneyzzz.github.io/atom.xml" rel="self"/>
   
-  <link href="http://example.com/"/>
+  <link href="http://toneyzzz.github.io/"/>
   <updated>2022-09-21T13:31:54.663Z</updated>
-  <id>http://example.com/</id>
+  <id>http://toneyzzz.github.io/</id>
   
   <author>
     <name>T.Z.</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>简单对话模块 v1.1</title>
-    <link href="http://example.com/2022/09/21/%E7%AE%80%E5%8D%95%E5%AF%B9%E8%AF%9D%E6%A8%A1%E5%9D%97-v1-1/"/>
-    <id>http://example.com/2022/09/21/%E7%AE%80%E5%8D%95%E5%AF%B9%E8%AF%9D%E6%A8%A1%E5%9D%97-v1-1/</id>
+    <link href="http://toneyzzz.github.io/2022/09/21/%E7%AE%80%E5%8D%95%E5%AF%B9%E8%AF%9D%E6%A8%A1%E5%9D%97-v1-1/"/>
+    <id>http://toneyzzz.github.io/2022/09/21/%E7%AE%80%E5%8D%95%E5%AF%B9%E8%AF%9D%E6%A8%A1%E5%9D%97-v1-1/</id>
     <published>2022-09-21T12:21:00.000Z</published>
     <updated>2022-09-21T13:31:54.663Z</updated>
     
@@ -39,17 +39,17 @@
     
     
     
-    <category term="使用手册" scheme="http://example.com/categories/%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C/"/>
+    <category term="使用手册" scheme="http://toneyzzz.github.io/categories/%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C/"/>
     
     
-    <category term="开发日志" scheme="http://example.com/tags/%E5%BC%80%E5%8F%91%E6%97%A5%E5%BF%97/"/>
+    <category term="开发日志" scheme="http://toneyzzz.github.io/tags/%E5%BC%80%E5%8F%91%E6%97%A5%E5%BF%97/"/>
     
   </entry>
   
   <entry>
     <title>简单对话模块 v1.0</title>
-    <link href="http://example.com/2022/09/20/%E7%AE%80%E5%8D%95%E5%AF%B9%E8%AF%9D%E6%A8%A1%E5%9D%97%20v1.0/"/>
-    <id>http://example.com/2022/09/20/%E7%AE%80%E5%8D%95%E5%AF%B9%E8%AF%9D%E6%A8%A1%E5%9D%97%20v1.0/</id>
+    <link href="http://toneyzzz.github.io/2022/09/20/%E7%AE%80%E5%8D%95%E5%AF%B9%E8%AF%9D%E6%A8%A1%E5%9D%97%20v1.0/"/>
+    <id>http://toneyzzz.github.io/2022/09/20/%E7%AE%80%E5%8D%95%E5%AF%B9%E8%AF%9D%E6%A8%A1%E5%9D%97%20v1.0/</id>
     <published>2022-09-20T13:05:55.000Z</published>
     <updated>2022-09-20T14:15:36.426Z</updated>
     
@@ -65,14 +65,14 @@
     
     
     
-    <category term="开发日志" scheme="http://example.com/tags/%E5%BC%80%E5%8F%91%E6%97%A5%E5%BF%97/"/>
+    <category term="开发日志" scheme="http://toneyzzz.github.io/tags/%E5%BC%80%E5%8F%91%E6%97%A5%E5%BF%97/"/>
     
   </entry>
   
   <entry>
     <title>好感度模块 v1.0</title>
-    <link href="http://example.com/2022/09/20/%E5%A5%BD%E6%84%9F%E5%BA%A6%E6%A8%A1%E5%9D%97%20v1.0/"/>
-    <id>http://example.com/2022/09/20/%E5%A5%BD%E6%84%9F%E5%BA%A6%E6%A8%A1%E5%9D%97%20v1.0/</id>
+    <link href="http://toneyzzz.github.io/2022/09/20/%E5%A5%BD%E6%84%9F%E5%BA%A6%E6%A8%A1%E5%9D%97%20v1.0/"/>
+    <id>http://toneyzzz.github.io/2022/09/20/%E5%A5%BD%E6%84%9F%E5%BA%A6%E6%A8%A1%E5%9D%97%20v1.0/</id>
     <published>2022-09-20T07:31:08.000Z</published>
     <updated>2022-09-21T13:32:27.561Z</updated>
     
@@ -89,7 +89,7 @@
     
     
     
-    <category term="开发日志" scheme="http://example.com/tags/%E5%BC%80%E5%8F%91%E6%97%A5%E5%BF%97/"/>
+    <category term="开发日志" scheme="http://toneyzzz.github.io/tags/%E5%BC%80%E5%8F%91%E6%97%A5%E5%BF%97/"/>
     
   </entry>
   
