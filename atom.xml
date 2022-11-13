@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>- Project Anna -</title>
+  <title>- TZ.の小窝 -</title>
   
-  <subtitle>陪安娜踏入广袤的虚拟世界吧</subtitle>
+  <subtitle>是且只是我的个人网站</subtitle>
   <link href="http://toneyzzz.github.io/atom.xml" rel="self"/>
   
   <link href="http://toneyzzz.github.io/"/>
-  <updated>2022-10-01T15:30:49.020Z</updated>
+  <updated>2022-11-13T16:22:17.720Z</updated>
   <id>http://toneyzzz.github.io/</id>
   
   <author>
@@ -17,11 +17,36 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>简介&amp;索引</title>
+    <link href="http://toneyzzz.github.io/2022/11/13/intro/"/>
+    <id>http://toneyzzz.github.io/2022/11/13/intro/</id>
+    <published>2022-11-13T15:51:30.000Z</published>
+    <updated>2022-11-13T16:22:17.720Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>这是一个网站整体的索引</p></blockquote><h2 id="这网站是啥？"><a href="#这网站是啥？" class="headerlink" title="- 这网站是啥？"></a>- 这网站是啥？</h2><p>这是一个我的个人博客；<br>以及某个bot更新日志的暂存地。</p><h2 id="有啥东西呢？"><a href="#有啥东西呢？" class="headerlink" title="- 有啥东西呢？"></a>- 有啥东西呢？</h2><h3 id="安娜的文档"><a href="#安娜的文档" class="headerlink" title="安娜的文档"></a>安娜的文档</h3><ul><li>这是一个正在开发中，已经可以玩耍的qq平台的多功能bot;</li><li>详细介绍，请查看下方链接：<ul><li><a href="https://toneyzzz.github.io/2022/09/23/AboutAnna/">有关安娜bot</a></li></ul></li></ul><h3 id="机器学习笔记"><a href="#机器学习笔记" class="headerlink" title="机器学习笔记"></a>机器学习笔记</h3><ul><li>由于笔者正在学习《统计学习方法》，且在尝试用python实现其中的模型，因此打算将学到的东西和已经成功写出的代码分享至此；</li><li>代码水平有限，欢迎进行指正与讨论。</li></ul><h2 id="想说点啥？"><a href="#想说点啥？" class="headerlink" title="- 想说点啥？"></a>- 想说点啥？</h2><ul><li>欢迎前往留言板:<ul><li><a href="https://toneyzzz.github.io/categories/%E7%95%99%E8%A8%80%E6%9D%BF/">留言板</a>；</li><li>右上方的<code>留言</code>按钮。</li></ul></li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;这是一个网站整体的索引&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;这网站是啥？&quot;&gt;&lt;a href=&quot;#这网站是啥？&quot; class=&quot;headerlink&quot; title=&quot;- 这网站是啥？&quot;&gt;&lt;/a&gt;- 这网站是啥？&lt;/h2&gt;&lt;p&gt;这是一个</summary>
+      
+    
+    
+    
+    <category term="总览" scheme="http://toneyzzz.github.io/categories/%E6%80%BB%E8%A7%88/"/>
+    
+    
+  </entry>
+  
+  <entry>
     <title>好感度模块 v1.1</title>
     <link href="http://toneyzzz.github.io/2022/10/01/relation_module_v1_1/"/>
     <id>http://toneyzzz.github.io/2022/10/01/relation_module_v1_1/</id>
     <published>2022-10-01T14:47:39.000Z</published>
-    <updated>2022-10-01T15:30:49.020Z</updated>
+    <updated>2022-11-13T15:29:13.277Z</updated>
     
     <content type="html"><![CDATA[<blockquote><p>注：<br>在每一次一个模块开发进入了足够成熟的阶段时，就会发布一个包含使用手册的开发日志，你能在此处找到：</p><ul><li>这个模块贼目前都有什么功能</li><li>如何使用这些功能</li></ul></blockquote><h2 id="这个模块是做什么的？"><a href="#这个模块是做什么的？" class="headerlink" title="这个模块是做什么的？"></a>这个模块是做什么的？</h2><ol><li>用来让安娜记住互动过的你们；</li><li>接入<code>投喂</code>等好感度变化相关的指令；</li><li>储存一些全局信息，是其他互动模块的基础。</li></ol><h2 id="我可以做什么？"><a href="#我可以做什么？" class="headerlink" title="我可以做什么？"></a>我可以做什么？</h2><h3 id="1-每天安娜会接受一次任何人的投喂；"><a href="#1-每天安娜会接受一次任何人的投喂；" class="headerlink" title="1. 每天安娜会接受一次任何人的投喂；"></a>1. 每天安娜会接受一次任何人的投喂；</h3><pre><code>在安娜活跃的群内输入 投喂 即可；</code></pre><ul><li>如果你<code>没有</code>进行过任何互动，<code>强烈建议</code>你先进行投喂！</li><li>能够增加可观的好感度；</li><li>每天会且仅会接受一次来自同一个人的投喂。</li></ul><p><img src="https://s3.bmp.ovh/imgs/2022/10/01/dce226b29d972660.jpg"></p><h3 id="2-查询好感度"><a href="#2-查询好感度" class="headerlink" title="2. 查询好感度"></a>2. 查询好感度</h3><pre><code>输入 查询好感度 或 好感度 即可；</code></pre><ul><li><p>安娜会记住每个人的互动并对你的好感产生变化，好感会被以数字的形式存储起来，即<code>好感度</code>；</p></li><li><p>不同的好感度会获得不同评价，具体分类如下：</p><table><thead><tr><th>不喜欢</th><th>陌生</th><th>信任</th><th>亲切</th><th>喜欢</th></tr></thead><tbody><tr><td>0-</td><td>0-25</td><td>25-150</td><td>150-400</td><td>400+</td></tr></tbody></table></li></ul><h3 id="3-查询玩心"><a href="#3-查询玩心" class="headerlink" title="3. 查询玩心"></a>3. 查询玩心</h3><pre><code>发送 @小安娜 查询玩心 即可（qq的@功能而非纯手输）；</code></pre><ul><li><p>本部分目前只与<code>戳一戳</code>有关；</p></li><li><p>安娜会在7点-24点每小时积累玩心，在一些时间积累的更多，详见下表；</p><table><thead><tr><th>不会再降低</th><th>会正常升高降低</th><th>很难升高</th><th>不会升高</th></tr></thead><tbody><tr><td>0-</td><td>0-36</td><td>36-49</td><td>49+</td></tr></tbody></table></li><li><p>玩心越高，与安娜进行<code>玩耍类互动</code>（如戳一戳)互动所积累的收益就越大；</p></li><li><p>对应地，<code>玩耍类互动</code>也会降低一定玩心。</p></li></ul><p><img src="https://s3.bmp.ovh/imgs/2022/10/01/d508131a23fb8b2e.jpg"></p><h3 id="4-戳一戳"><a href="#4-戳一戳" class="headerlink" title="4. 戳一戳"></a>4. 戳一戳</h3><pre><code>在触摸屏qq客户端双击安娜头像以“戳一戳”；</code></pre><ul><li>这是第一个，也是目前唯一的实装<code>玩耍类互动</code>；</li><li>每次戳一戳会参考<code>玩心</code>的大小获得一定好感度；<ul><li>总体而言，玩心越高，收获的好感度就会越高；</li><li>当玩心几乎是0的时候，可能<code>好感度</code>反而会降低；</li><li>安娜会在玩心低的时候提醒你。</li></ul></li><li>戳一戳同时会降低<code>玩心</code>：<ul><li>针对同一个玩心下的戳一戳而言，获得的<code>好感度</code>越高，<code>玩心</code>降低的越小。</li></ul></li></ul><h2 id="以后可能会有什么？"><a href="#以后可能会有什么？" class="headerlink" title="以后可能会有什么？"></a>以后可能会有什么？</h2><p><code>注意：以下内容并未实装！</code></p><ul><li>戳一戳的具体数值仍然在调整中，将会在不同的考量下进一步优化；<ul><li>不用担心的问题是，安娜在主观上对每个人是一视同仁的～</li></ul></li><li>一套全新的<code>探索</code>玩法：<ul><li>可能是不亚于现在总代码量的更新；</li><li>短期内不会出现。</li></ul></li><li>与简单对话模块产生联动：<ul><li>与安娜对话以后可能会有几率获得好感度；</li><li>可能会有需要一定好感度才能解锁的对话；</li></ul></li></ul><h2 id="还有你想实现但并未提及的功能吗？"><a href="#还有你想实现但并未提及的功能吗？" class="headerlink" title="还有你想实现但并未提及的功能吗？"></a>还有你想实现但并未提及的功能吗？</h2><ul><li>欢迎到留言板留言～<ul><li><a href="https://toneyzzz.github.io/2022/09/23/%E7%95%99%E8%A8%80%E6%9D%BF/">留言板</a></li></ul></li></ul>]]></content>
     
@@ -39,7 +64,7 @@
     
     
     
-    <category term="使用手册" scheme="http://toneyzzz.github.io/categories/%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C/"/>
+    <category term="Project Anna" scheme="http://toneyzzz.github.io/categories/Project-Anna/"/>
     
     
     <category term="开发日志" scheme="http://toneyzzz.github.io/tags/%E5%BC%80%E5%8F%91%E6%97%A5%E5%BF%97/"/>
@@ -51,9 +76,9 @@
     <link href="http://toneyzzz.github.io/2022/09/23/AboutAnna/"/>
     <id>http://toneyzzz.github.io/2022/09/23/AboutAnna/</id>
     <published>2022-09-23T12:37:33.000Z</published>
-    <updated>2022-09-23T15:52:18.961Z</updated>
+    <updated>2022-11-13T16:18:42.764Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="安娜是谁？"><a href="#安娜是谁？" class="headerlink" title="- 安娜是谁？"></a>- 安娜是谁？</h2>    <figure class="figure-image">      <img src="https://s3.bmp.ovh/imgs/2022/09/23/6a382ad987be8693.png" alt="哪个安娜（划掉）" loading="lazy" />      <figcaption>哪个安娜（划掉）</figcaption>    </figure>  <blockquote><ul><li>404小队与忤逆小队在帕尔迪斯基的潜艇基地中找到的涅托幼体的其中一员。</li><li>平常面无表情，实际上性格跳脱且玩心相当重，对潜艇基地外的其他事物非常好奇。</li><li>帕尔迪斯基战役结束后与其他涅托幼体一同被带回格里芬，是帕拉蒂斯地下儿童贩卖网络的受害者。<br><a href="https://zh.moegirl.org.cn/%E5%B0%91%E5%A5%B3%E5%89%8D%E7%BA%BF:%E5%AE%89%E5%A8%9C"><p align="right">——萌娘百科</a></li></ul></blockquote><ul><li>是以少女前线中的涅托幼体安娜为形象的bot；</li><li>是正在开发中的互动机器人；</li><li><del>是对开发者疯狂掉好感度的叛逆期小女孩。</del></li></ul><h1 id=""><a href="#" class="headerlink" title=""></a></h1><h2 id="她可以做什么？"><a href="#她可以做什么？" class="headerlink" title="- 她可以做什么？"></a>- 她可以做什么？</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">1. 可扩展新语料的日常交流；</span><br><span class="line">2. 互动养成系统；</span><br><span class="line">3. 可当跑团骰娘；</span><br><span class="line">4. 更多功能（大饼）锐意开发中！</span><br></pre></td></tr></table></figure><h1 id="-1"><a href="#-1" class="headerlink" title=""></a></h1><h2 id="来一起玩？"><a href="#来一起玩？" class="headerlink" title="- 来一起玩？"></a>- 来一起玩？</h2><ul><li>入群以与安娜互动：</li><li><a href="https://qm.qq.com/cgi-bin/qm/qr?k=kB99jelC9FoVfJbSqJoLugsgh4go-xeK&authKey=hUuzWo9MRNeIyhlpqN5bKo5UvX/S3YTFIedPvhKBJn+SDrEeAQ+8rLLXY4GPefld&noverify=0">开发者の小群</a></li><li>联系开发者：</li><li>邮件 - <code>632437335@qq.com</code></li></ul><h1 id="-2"><a href="#-2" class="headerlink" title=""></a></h1><h2 id="有关创作过程中的原创声明"><a href="#有关创作过程中的原创声明" class="headerlink" title="- 有关创作过程中的原创声明"></a>- 有关创作过程中的原创声明</h2><ul><li>安娜的背景设定参考自<code>散爆网络</code>的游戏<code>少女前线</code>的设定;</li><li>本文及网站首页中使用的封面及部分配图来自：<ul><li><a href="https://zh.moegirl.org.cn/%E5%B0%91%E5%A5%B3%E5%89%8D%E7%BA%BF:%E5%AE%89%E5%A8%9C#/media/File:Nytochild01_1.png">萌娘百科-安娜立绘</a></li><li><a href="https://gfwiki.org/w/%E6%96%87%E4%BB%B6:13CG1.png">少前百科-13章剧情CG1</a></li><li><a href="https://www.pixiv.net/artworks/90799939">简介封面图 (作者:乙醚一杯Aether)</a></li><li><a href="https://www.pixiv.net/artworks/79944490">首页封面图 (作者:Yayi)</a></li></ul></li></ul>]]></content>
+    <content type="html"><![CDATA[<h2 id="安娜是谁？"><a href="#安娜是谁？" class="headerlink" title="- 安娜是谁？"></a>- 安娜是谁？</h2>    <figure class="figure-image">      <img src="https://s3.bmp.ovh/imgs/2022/09/23/6a382ad987be8693.png" alt="哪个安娜（划掉）" loading="lazy" />      <figcaption>哪个安娜（划掉）</figcaption>    </figure>  <blockquote><ul><li>404小队与忤逆小队在帕尔迪斯基的潜艇基地中找到的涅托幼体的其中一员。</li><li>平常面无表情，实际上性格跳脱且玩心相当重，对潜艇基地外的其他事物非常好奇。</li><li>帕尔迪斯基战役结束后与其他涅托幼体一同被带回格里芬，是帕拉蒂斯地下儿童贩卖网络的受害者。<br><a href="https://zh.moegirl.org.cn/%E5%B0%91%E5%A5%B3%E5%89%8D%E7%BA%BF:%E5%AE%89%E5%A8%9C"><p align="right">——萌娘百科</a></li></ul></blockquote><ul><li>是以少女前线中的涅托幼体安娜为形象的bot；</li><li>是正在开发中的互动机器人；</li><li><del>是对开发者疯狂掉好感度的叛逆期小女孩。</del></li></ul><h1 id=""><a href="#" class="headerlink" title=""></a></h1><h2 id="她可以做什么？"><a href="#她可以做什么？" class="headerlink" title="- 她可以做什么？"></a>- 她可以做什么？</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">1. 解压（血压++）的互动机器人；</span><br><span class="line">2. 好感养成bot；</span><br><span class="line">3. 可当跑团骰娘；</span><br><span class="line">4. 更多功能（大饼）锐意开发中！</span><br></pre></td></tr></table></figure><h1 id="-1"><a href="#-1" class="headerlink" title=""></a></h1><h2 id="来一起玩？"><a href="#来一起玩？" class="headerlink" title="- 来一起玩？"></a>- 来一起玩？</h2><ul><li>入群以与安娜互动：</li><li><a href="https://qm.qq.com/cgi-bin/qm/qr?k=kB99jelC9FoVfJbSqJoLugsgh4go-xeK&authKey=hUuzWo9MRNeIyhlpqN5bKo5UvX/S3YTFIedPvhKBJn+SDrEeAQ+8rLLXY4GPefld&noverify=0">开发者の小群</a></li><li>联系开发者：</li><li>邮件 - <code>632437335@qq.com</code></li></ul><h1 id="-2"><a href="#-2" class="headerlink" title=""></a></h1><h2 id="有关创作过程中的原创声明"><a href="#有关创作过程中的原创声明" class="headerlink" title="- 有关创作过程中的原创声明"></a>- 有关创作过程中的原创声明</h2><ul><li>安娜的背景设定参考自<code>散爆网络</code>的游戏<code>少女前线</code>的设定;</li><li>本文及网站首页中使用的封面及部分配图来自：<ul><li><a href="https://zh.moegirl.org.cn/%E5%B0%91%E5%A5%B3%E5%89%8D%E7%BA%BF:%E5%AE%89%E5%A8%9C#/media/File:Nytochild01_1.png">萌娘百科-安娜立绘</a></li><li><a href="https://gfwiki.org/w/%E6%96%87%E4%BB%B6:13CG1.png">少前百科-13章剧情CG1</a></li><li><a href="https://www.pixiv.net/artworks/90799939">简介封面图 (作者:乙醚一杯Aether)</a></li><li><a href="https://www.pixiv.net/artworks/79944490">首页封面图 (作者:Yayi)</a></li></ul></li></ul>]]></content>
     
     
       
@@ -65,8 +90,10 @@
     
     
     
-    <category term="简介" scheme="http://toneyzzz.github.io/categories/%E7%AE%80%E4%BB%8B/"/>
+    <category term="Project Anna" scheme="http://toneyzzz.github.io/categories/Project-Anna/"/>
     
+    
+    <category term="简介" scheme="http://toneyzzz.github.io/tags/%E7%AE%80%E4%BB%8B/"/>
     
   </entry>
   
@@ -75,22 +102,22 @@
     <link href="http://toneyzzz.github.io/2022/09/23/%E7%95%99%E8%A8%80%E6%9D%BF/"/>
     <id>http://toneyzzz.github.io/2022/09/23/%E7%95%99%E8%A8%80%E6%9D%BF/</id>
     <published>2022-09-23T04:33:32.000Z</published>
-    <updated>2022-10-01T14:16:40.848Z</updated>
+    <updated>2022-11-13T15:38:04.800Z</updated>
     
-    <content type="html"><![CDATA[<blockquote><p>注：<br>由于对文章进行更新会清空评论区，本板下方不会更新任何bug修复，查询相关内容请关注开发日志。</p></blockquote><h2 id="这是啥"><a href="#这是啥" class="headerlink" title="这是啥"></a>这是啥</h2><ul><li>这个页面用于接受任何<code>使用体验</code>与<code>反馈</code><del>与发病</del>。</li><li>如果你发现了任何bug或有任何想加入的功能，欢迎在下方评论。</li><li>如有特殊情况，请点击右上方栏目的<code>一起来玩</code>或联系<code>qq 632437335</code></li></ul>]]></content>
+    <content type="html"><![CDATA[<blockquote><p>注：<br>本板下方不会更新任何实际内容，查询相关内容请关注具体板块。</p></blockquote><h2 id="这是啥"><a href="#这是啥" class="headerlink" title="这是啥"></a>这是啥</h2><ul><li>这个留言板目前主要用于接收安娜的使用反馈；</li><li>这个页面用于接受任何<code>使用体验</code>与<code>反馈</code><del>与发病</del>；</li><li>如果你发现了任何bug或有任何想加入的功能，欢迎在下方评论；</li><li>如有特殊情况，请点击右上方栏目的<code>一起来玩</code>或联系<code>qq 632437335</code>。</li></ul>]]></content>
     
     
       
       
     <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;注：&lt;br&gt;由于对文章进行更新会清空评论区，本板下方不会更新任何bug修复，查询相关内容请关注开发日志。&lt;/p&gt;
+&lt;p&gt;注：&lt;br&gt;本板下方不会更新任何实际内容，查询相关内容请关注具体板块。&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;h2 id=&quot;这是啥&quot;&gt;&lt;a href=&quot;#这是啥&quot; class=&quot;headerlink&quot; title=</summary>
+&lt;h2 id=&quot;这是啥&quot;&gt;&lt;a href=&quot;#这是啥&quot; class=&quot;headerlink&quot; title=&quot;这是啥&quot;&gt;&lt;/a&gt;这是啥&lt;/h2</summary>
       
     
     
     
-    <category term="留言板" scheme="http://toneyzzz.github.io/categories/%E7%95%99%E8%A8%80%E6%9D%BF/"/>
+    <category term="总览" scheme="http://toneyzzz.github.io/categories/%E6%80%BB%E8%A7%88/"/>
     
     
   </entry>
@@ -100,7 +127,7 @@
     <link href="http://toneyzzz.github.io/2022/09/21/%E7%AE%80%E5%8D%95%E5%AF%B9%E8%AF%9D%E6%A8%A1%E5%9D%97-v1-1/"/>
     <id>http://toneyzzz.github.io/2022/09/21/%E7%AE%80%E5%8D%95%E5%AF%B9%E8%AF%9D%E6%A8%A1%E5%9D%97-v1-1/</id>
     <published>2022-09-21T12:21:00.000Z</published>
-    <updated>2022-09-23T14:15:31.197Z</updated>
+    <updated>2022-11-13T15:29:17.518Z</updated>
     
     <content type="html"><![CDATA[<blockquote><p>注：<br>在每一次一个模块开发进入了足够成熟的阶段时，就会发布一个包含使用手册的开发日志，你能在此处找到：</p><ul><li>这个模块贼目前都有什么功能</li><li>如何使用这些功能</li></ul></blockquote><h2 id="简单对话模块使用手册"><a href="#简单对话模块使用手册" class="headerlink" title="简单对话模块使用手册"></a>简单对话模块使用手册</h2><h3 id="功能"><a href="#功能" class="headerlink" title="功能"></a>功能</h3><ol><li>正常对话：</li></ol><ul><li><p>这个模块提供的对话是离散的对话，即：</p><ul><li>每一组对话由一个<code>明确</code>的问题和答案组成；</li><li>同一个问题可能有多个答案，但都是<code>确定</code>的答案；</li><li>同一个答案也可能对应多个<code>确定</code>的问题；</li><li><code>确定</code>意味着完全匹配，甚至包括标点符号的半角全角。</li></ul></li><li><p>在群内<code>@小安娜</code>加上你想说的话，如果数据库中存储了对应问题，安娜会给予回应;</p></li><li><p>截止本文发送时，为止安娜的数据库内有17条对话；</p></li><li><p>对话情景样例如下：</p>    <figure class="figure-image">      <img src="https://s1.ax1x.com/2022/09/21/xi7yGQ.jpg" alt="一次完成的对话" loading="lazy" />      <figcaption>一次完成的对话</figcaption>    </figure>  </li></ul><ol start="2"><li>添加新的对话库</li></ol><ul><li><p>正如上述所言，目前数据库的对话总量很小。但这<del>并非作者偷懒于此（心虚），而</del>是希望这个对话功能能够由更多个具有高等智慧的头脑一起完成；</p></li><li><p>因此，你可以使用<code>指令</code>来加入新的对话语料，具体操作如下：</p><ul><li>发送如下内容：<ul><li><code>#我问</code>在吗<code>你答</code>不在!</li></ul></li><li>第一个<code>#</code>是指令语句的标志，也可以替换为<code>/</code>;</li><li>之后安娜会自动检查<code>我问</code>和<code>你答</code>两个关键词，请务必以此格式录入对话。<del>否则结果可能会奇奇怪怪!</del></li></ul></li><li><p>成功提交问答的样例：</p>    <figure class="figure-image">      <img src="https://s1.ax1x.com/2022/09/20/xP218f.jpg" alt="成功添加の情景" loading="lazy" />      <figcaption>成功添加の情景</figcaption>    </figure>  </li><li><p>关于录入之后：</p><ul><li>你贡献的问答条目会被储存进一个临时列表中；</li><li><code>SUPERUSER</code>(截止目前只有笔者)将删掉部分不合适的条目，并通过指令<code>#检查通过</code>让安娜录入合格的语录；</li><li><strong>每一条通过的问答条目会让贡献者获得安娜的2点好感度。</strong></li></ul></li><li><p>成功的获得好感度会有<code>@通知</code>：</p></li></ul>    <figure class="figure-image">      <img src="https://s1.ax1x.com/2022/09/21/xibihF.jpg" alt="条目检查合格好感提升の通知" loading="lazy" />      <figcaption>条目检查合格好感提升の通知</figcaption>    </figure>  <ol start="3"><li>打招呼插件 - “早！”</li></ol><ul><li>这是一个很朴素的插件，用来打招呼。</li><li>不需要<code>@安娜</code>, 直接在群里发送：<ul><li><code>早上好</code>以及部分类似语句；</li><li><code>晚上好</code>以及部分类似语句。<ul><li><code>晚安</code>与<code>晚上好</code>不是一个意思！</li></ul></li></ul></li><li>会收到安娜<del>热情洋溢</del>的回应。</li><li>很简单，不放图了自己体验叭～</li></ul><h2 id="日志-9-21-2022"><a href="#日志-9-21-2022" class="headerlink" title="日志 - 9.21.2022"></a>日志 - 9.21.2022</h2><blockquote><p>祖宗传统之 —— 总结工作 &amp; 画大饼时间</p></blockquote><ol><li>加入了<code>检查通过</code>指令,条目贡献者可以增加好感度了；</li></ol><ul><li>未来可能会加入自动检测恶意问答的机制；</li><li>可能会加入使用模块陪安娜对话有概率增加好感度的设定。</li></ul><ol start="2"><li>加入附属的<code>问好模块</code>。</li></ol><ul><li>接受的问候语仍然较少，以后可能会手动扩充；</li><li>or加入恶意检测以后，用正则表达式扩展。</li></ul>]]></content>
     
@@ -118,7 +145,7 @@
     
     
     
-    <category term="使用手册" scheme="http://toneyzzz.github.io/categories/%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C/"/>
+    <category term="Project Anna" scheme="http://toneyzzz.github.io/categories/Project-Anna/"/>
     
     
     <category term="开发日志" scheme="http://toneyzzz.github.io/tags/%E5%BC%80%E5%8F%91%E6%97%A5%E5%BF%97/"/>
@@ -130,7 +157,7 @@
     <link href="http://toneyzzz.github.io/2022/09/20/%E7%AE%80%E5%8D%95%E5%AF%B9%E8%AF%9D%E6%A8%A1%E5%9D%97%20v1.0/"/>
     <id>http://toneyzzz.github.io/2022/09/20/%E7%AE%80%E5%8D%95%E5%AF%B9%E8%AF%9D%E6%A8%A1%E5%9D%97%20v1.0/</id>
     <published>2022-09-20T13:05:55.000Z</published>
-    <updated>2022-09-23T14:15:32.006Z</updated>
+    <updated>2022-11-13T15:29:19.174Z</updated>
     
     <content type="html"><![CDATA[<h2 id="日志-9-20-2022"><a href="#日志-9-20-2022" class="headerlink" title="日志 - 9.20.2022"></a>日志 - 9.20.2022</h2><ol><li><p>加入了一个简单的全匹配问答数据库。</p></li><li><p>可以保持运行状态更新数据库:</p><ul><li>目前仅能由<code>SUPERUSER</code>手动用指令更新。</li></ul></li><li><p>加入「我问你答」增加对话的功能:</p><ul><li>用户可以用指令形式发送<code>#你问...我答...</code> ;</li><li>成功后会被收进临时储存列表;</li><li><code>SUPERUSER</code>将临时储存对话检查后加入对话数据库里.</li></ul></li></ol>    <figure class="figure-image">      <img src="https://s1.ax1x.com/2022/09/20/xP218f.jpg" alt="成功添加の情景" loading="lazy" />      <figcaption>成功添加の情景</figcaption>    </figure>  <p><del>锐意咕咕中</del></p>]]></content>
     
@@ -143,6 +170,8 @@
     
     
     
+    <category term="Project Anna" scheme="http://toneyzzz.github.io/categories/Project-Anna/"/>
+    
     
     <category term="开发日志" scheme="http://toneyzzz.github.io/tags/%E5%BC%80%E5%8F%91%E6%97%A5%E5%BF%97/"/>
     
@@ -153,7 +182,7 @@
     <link href="http://toneyzzz.github.io/2022/09/20/%E5%A5%BD%E6%84%9F%E5%BA%A6%E6%A8%A1%E5%9D%97%20v1.0/"/>
     <id>http://toneyzzz.github.io/2022/09/20/%E5%A5%BD%E6%84%9F%E5%BA%A6%E6%A8%A1%E5%9D%97%20v1.0/</id>
     <published>2022-09-20T07:31:08.000Z</published>
-    <updated>2022-09-21T13:32:27.561Z</updated>
+    <updated>2022-11-13T15:29:38.629Z</updated>
     
     <content type="html"><![CDATA[<h2 id="日志-9-18-2022"><a href="#日志-9-18-2022" class="headerlink" title="日志 - 9.18.2022:"></a>日志 - 9.18.2022:</h2><ol><li>「安娜」第一次开始运行。</li><li>加入好感度系统：<ul><li>一个时刻储存的好感度数据库。</li></ul></li><li>加入每日投喂功能：<ul><li>输入[投喂]以随机获得好感度；</li><li>每天安娜只接受一个用户投喂的第一次。</li></ul></li><li>加入查询好感度功能：<ul><li>输入[查询好感度]以查询安娜对你的好感度。</li></ul></li><li>[戳一戳]随机加减好感。</li></ol><h2 id="日志-9-19-2022"><a href="#日志-9-19-2022" class="headerlink" title="日志 - 9.19.2022:"></a>日志 - 9.19.2022:</h2><ol><li><p>加入好感度等级：</p><table><thead><tr><th>不喜欢</th><th>陌生</th><th>信任</th><th>亲切</th><th>喜欢</th></tr></thead><tbody><tr><td>0-</td><td>0-25</td><td>25-150</td><td>150-400</td><td>400+</td></tr></tbody></table></li></ol><h2 id="「计划中」"><a href="#「计划中」" class="headerlink" title="「计划中」"></a>「计划中」</h2><ol><li>更改戳一戳机制，加入「玩心」：<ul><li>「玩心」高低会影响戳一戳获得的好感度期望值；</li><li>「玩心」会随时间积累，并被任何人的互动消耗；</li><li>用户可以实时查阅「玩心」数值。</li></ul></li></ol>]]></content>
     
@@ -166,6 +195,8 @@
       
     
     
+    
+    <category term="Project Anna" scheme="http://toneyzzz.github.io/categories/Project-Anna/"/>
     
     
     <category term="开发日志" scheme="http://toneyzzz.github.io/tags/%E5%BC%80%E5%8F%91%E6%97%A5%E5%BF%97/"/>
