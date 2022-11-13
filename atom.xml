@@ -6,7 +6,7 @@
   <link href="http://toneyzzz.github.io/atom.xml" rel="self"/>
   
   <link href="http://toneyzzz.github.io/"/>
-  <updated>2022-11-13T16:22:17.720Z</updated>
+  <updated>2022-11-13T16:41:10.646Z</updated>
   <id>http://toneyzzz.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://toneyzzz.github.io/2022/11/13/intro/"/>
     <id>http://toneyzzz.github.io/2022/11/13/intro/</id>
     <published>2022-11-13T15:51:30.000Z</published>
-    <updated>2022-11-13T16:22:17.720Z</updated>
+    <updated>2022-11-13T16:41:10.646Z</updated>
     
     <content type="html"><![CDATA[<blockquote><p>这是一个网站整体的索引</p></blockquote><h2 id="这网站是啥？"><a href="#这网站是啥？" class="headerlink" title="- 这网站是啥？"></a>- 这网站是啥？</h2><p>这是一个我的个人博客；<br>以及某个bot更新日志的暂存地。</p><h2 id="有啥东西呢？"><a href="#有啥东西呢？" class="headerlink" title="- 有啥东西呢？"></a>- 有啥东西呢？</h2><h3 id="安娜的文档"><a href="#安娜的文档" class="headerlink" title="安娜的文档"></a>安娜的文档</h3><ul><li>这是一个正在开发中，已经可以玩耍的qq平台的多功能bot;</li><li>详细介绍，请查看下方链接：<ul><li><a href="https://toneyzzz.github.io/2022/09/23/AboutAnna/">有关安娜bot</a></li></ul></li></ul><h3 id="机器学习笔记"><a href="#机器学习笔记" class="headerlink" title="机器学习笔记"></a>机器学习笔记</h3><ul><li>由于笔者正在学习《统计学习方法》，且在尝试用python实现其中的模型，因此打算将学到的东西和已经成功写出的代码分享至此；</li><li>代码水平有限，欢迎进行指正与讨论。</li></ul><h2 id="想说点啥？"><a href="#想说点啥？" class="headerlink" title="- 想说点啥？"></a>- 想说点啥？</h2><ul><li>欢迎前往留言板:<ul><li><a href="https://toneyzzz.github.io/categories/%E7%95%99%E8%A8%80%E6%9D%BF/">留言板</a>；</li><li>右上方的<code>留言</code>按钮。</li></ul></li></ul>]]></content>
     
@@ -38,6 +38,8 @@
     
     <category term="总览" scheme="http://toneyzzz.github.io/categories/%E6%80%BB%E8%A7%88/"/>
     
+    
+    <category term="简介" scheme="http://toneyzzz.github.io/tags/%E7%AE%80%E4%BB%8B/"/>
     
   </entry>
   
