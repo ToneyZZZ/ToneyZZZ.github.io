@@ -24,7 +24,7 @@
 
   
 
-  <title>简单对话模块 v1.1 | - TZ.の小窝 -</title>
+  <title>感知机, 及其对偶形式实现 | - TZ.の小窝 -</title>
 
   
 
@@ -50,7 +50,7 @@
 <!-- header container -->
 <header class="header-container post">
   
-    <div class="post-image" style="background-image: url(/cover3.jpeg)"></div>
+    <div class="post-image" style="background-image: url(/bbr_banner.jpg)"></div>
   
 
   <!-- navbar -->
@@ -103,20 +103,18 @@
     <div class="header-content">
       <div class="post-text layout-block">
         <div class="layout-margin">
-          <h1 class="title-wrap">简单对话模块 v1.1</h1>
+          <h1 class="title-wrap">感知机, 及其对偶形式实现</h1>
           <h2 class="title-sub-wrap">
             <strong>T.Z.</strong>
             <span>发布于</span>
-            <time  class="article-date" datetime="2022-09-21T12:21:00.000Z" itemprop="datePublished">2022-09-21</time>
+            <time  class="article-date" datetime="2022-11-25T16:41:26.000Z" itemprop="datePublished">2022-11-26</time>
           </h2>
           <ul class="wrap-list dark">
   
-    <li><a href="/categories/Project-Anna/">📒 Project Anna</a></li>
+    <li><a href="/categories/%E7%BB%9F%E8%AE%A1%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95/">📒 统计学习方法</a></li>
   
 </ul>
           <ul class="wrap-list dark">
-  
-    <li><a href="/tags/%E5%BC%80%E5%8F%91%E6%97%A5%E5%BF%97/">🏷️ 开发日志</a></li>
   
 </ul>
         </div>
@@ -140,111 +138,71 @@
       
       
       <section class="article-entry markdown-body layout-margin content-padding--large soft-size--large soft-style--box">
-        <blockquote>
-<p>注：<br>在每一次一个模块开发进入了足够成熟的阶段时，就会发布一个包含使用手册的开发日志，你能在此处找到：</p>
+        <h2 id="简介-感知机模型"><a href="#简介-感知机模型" class="headerlink" title="简介 - 感知机模型"></a>简介 - 感知机模型</h2><h3 id="简介"><a href="#简介" class="headerlink" title="- 简介"></a>- 简介</h3><ul>
+<li><p>感知机是二类分类的线性分类模型，在预测时，输入实例的特征向量，输出预测特征类别(两类中的一类)。</p>
 <ul>
-<li>这个模块贼目前都有什么功能</li>
-<li>如何使用这些功能</li>
+<li>模型类别: 判别模型</li>
+<li>学习目的: 找出能将训练数据进行线性划分的分离超平面</li>
+<li>迭代算法：梯度下降法</li>
 </ul>
-</blockquote>
-<h2 id="简单对话模块使用手册"><a href="#简单对话模块使用手册" class="headerlink" title="简单对话模块使用手册"></a>简单对话模块使用手册</h2><h3 id="功能"><a href="#功能" class="headerlink" title="功能"></a>功能</h3><ol>
-<li>正常对话：</li>
-</ol>
-<ul>
-<li><p>这个模块提供的对话是离散的对话，即：</p>
-<ul>
-<li>每一组对话由一个<code>明确</code>的问题和答案组成；</li>
-<li>同一个问题可能有多个答案，但都是<code>确定</code>的答案；</li>
-<li>同一个答案也可能对应多个<code>确定</code>的问题；</li>
-<li><code>确定</code>意味着完全匹配，甚至包括标点符号的半角全角。</li>
-</ul>
-</li>
-<li><p>在群内<code>@小安娜</code>加上你想说的话，如果数据库中存储了对应问题，安娜会给予回应;</p>
-</li>
-<li><p>截止本文发送时，为止安娜的数据库内有17条对话；</p>
-</li>
-<li><p>对话情景样例如下：</p>
-
-    <figure class="figure-image">
-      <img src="https://s1.ax1x.com/2022/09/21/xi7yGQ.jpg" alt="一次完成的对话" loading="lazy" />
-      <figcaption>一次完成的对话</figcaption>
-    </figure>
-  </li>
-</ul>
-<ol start="2">
-<li>添加新的对话库</li>
-</ol>
-<ul>
-<li><p>正如上述所言，目前数据库的对话总量很小。但这<del>并非作者偷懒于此（心虚），而</del>是希望这个对话功能能够由更多个具有高等智慧的头脑一起完成；</p>
-</li>
-<li><p>因此，你可以使用<code>指令</code>来加入新的对话语料，具体操作如下：</p>
-<ul>
-<li>发送如下内容：<ul>
-<li><code>#我问</code>在吗<code>你答</code>不在!</li>
-</ul>
-</li>
-<li>第一个<code>#</code>是指令语句的标志，也可以替换为<code>/</code>;</li>
-<li>之后安娜会自动检查<code>我问</code>和<code>你答</code>两个关键词，请务必以此格式录入对话。<del>否则结果可能会奇奇怪怪!</del></li>
-</ul>
-</li>
-<li><p>成功提交问答的样例：</p>
-
-    <figure class="figure-image">
-      <img src="https://s1.ax1x.com/2022/09/20/xP218f.jpg" alt="成功添加の情景" loading="lazy" />
-      <figcaption>成功添加の情景</figcaption>
-    </figure>
-  
-</li>
-<li><p>关于录入之后：</p>
-<ul>
-<li>你贡献的问答条目会被储存进一个临时列表中；</li>
-<li><code>SUPERUSER</code>(截止目前只有笔者)将删掉部分不合适的条目，并通过指令<code>#检查通过</code>让安娜录入合格的语录；</li>
-<li><strong>每一条通过的问答条目会让贡献者获得安娜的2点好感度。</strong></li>
-</ul>
-</li>
-<li><p>成功的获得好感度会有<code>@通知</code>：</p>
+<p><img src="https://s3.uuu.ovh/imgs/2022/11/26/a5b31b1fbb7f46eb.png"></p>
 </li>
 </ul>
-
-    <figure class="figure-image">
-      <img src="https://s1.ax1x.com/2022/09/21/xibihF.jpg" alt="条目检查合格好感提升の通知" loading="lazy" />
-      <figcaption>条目检查合格好感提升の通知</figcaption>
-    </figure>
-  
-
-<ol start="3">
-<li>打招呼插件 - “早！”</li>
-</ol>
-<ul>
-<li>这是一个很朴素的插件，用来打招呼。</li>
-<li>不需要<code>@安娜</code>, 直接在群里发送：<ul>
-<li><code>早上好</code>以及部分类似语句；</li>
-<li><code>晚上好</code>以及部分类似语句。<ul>
-<li><code>晚安</code>与<code>晚上好</code>不是一个意思！</li>
-</ul>
+<h3 id="定义-感知机"><a href="#定义-感知机" class="headerlink" title="- 定义: 感知机"></a>- 定义: 感知机</h3><ul>
+<li><p>函数定义</p>
+<p>假设输入空间 $\mathcal{X} \subseteq \mathbb{R}^n$ , 输出空间 $\mathcal{Y} &#x3D; {-1, 1}$ 。</p>
+<p>如果用 $x &#x3D;[x_1, x_2, \dots, x_n]\in \mathcal{X}$ 表示输入实例的特征向量, $y \in \mathcal{Y}$ 表示输出实例的类别（即预测的种类）, 则每一组 $x,y$ 均具对应如下函数:</p>
+<p>$$f(x)&#x3D;sign(w\cdot x + b)$$</p>
+<p>该函数也被称为<code>感知机</code>。</p>
 </li>
-</ul>
-</li>
-<li>会收到安娜<del>热情洋溢</del>的回应。</li>
-<li>很简单，不放图了自己体验叭～</li>
-</ul>
-<h2 id="日志-9-21-2022"><a href="#日志-9-21-2022" class="headerlink" title="日志 - 9.21.2022"></a>日志 - 9.21.2022</h2><blockquote>
-<p>祖宗传统之 —— 总结工作 &amp; 画大饼时间</p>
-</blockquote>
+<li><p>参数解释</p>
 <ol>
-<li>加入了<code>检查通过</code>指令,条目贡献者可以增加好感度了；</li>
+<li>在感知机中，$w$ 和 $b$ 为感知机模型参数:</li>
 </ol>
+<p>$${<br>  \begin{cases}<br>  w \in \mathbb{R}^n &amp; 权值\ (weight)\<br>  b \in \mathbb{R} &amp; 偏置\ (bias)<br>  \end{cases}}$$</p>
 <ul>
-<li>未来可能会加入自动检测恶意问答的机制；</li>
-<li>可能会加入使用模块陪安娜对话有概率增加好感度的设定。</li>
+<li>值得注意的是，此处的 $x$ 并非一个一维标量，而是具有n个维度的向量，因此权值 $w$ 也具有n个独立的值，$w\cdot x$ 是一个点乘结果，也就是:<ul>
+<li>若:<ul>
+<li>$x &#x3D;[x_1, x_2, \dots, x_n]$</li>
+<li>$w &#x3D;[w_1, w_2, \dots, w_n]$</li>
+</ul>
+</li>
+<li>则 $w\cdot x &#x3D; \sum_{i&#x3D;1}^n w_{i}x_{i} &#x3D; w_1 x_1 + w_2 x_2 + \dots + w_n x_n$</li>
+</ul>
+</li>
 </ul>
 <ol start="2">
-<li>加入附属的<code>问好模块</code>。</li>
+<li>$f(x)&#x3D;sign(a)$ 是符号函数，取值如下:</li>
 </ol>
-<ul>
-<li>接受的问候语仍然较少，以后可能会手动扩充；</li>
-<li>or加入恶意检测以后，用正则表达式扩展。</li>
+<p>$$sign(a)&#x3D;{<br>  \begin{cases}<br>  +1 &amp; x\leqslant 0 \<br>  -1 &amp; x&lt;0<br>  \end{cases}<br>}$$</p>
+</li>
 </ul>
+<h3 id="数据集"><a href="#数据集" class="headerlink" title="- 数据集"></a>- 数据集</h3><p>  <img src="https://s3.uuu.ovh/imgs/2022/11/26/8c179ace0e193359.png"></p>
+<ol>
+<li><p>数据集的表示</p>
+<ul>
+<li>感知机所需要的数据集可以表示为：<ul>
+<li>$T &#x3D; {(x_1,y_1),(x_2,y_2),\dots,(x_n,y_n)}$</li>
+<li>图中的点集是拥有 2 种特征($x^{(1)},x^{(2)}$)的线性可分的数据集, 即 $x_i &#x3D; (x^{(1)}_i,x^{(2)}_i);\ y_i \in {-1, 1}$</li>
+</ul>
+</li>
+<li>图中划分出两侧数据种类的直线被称为超平面 $S: w\cdot x+b&#x3D;0$ , $S$ 感知机通过训练集 $T$ 训练求得具有足够准确率的 $S$。</li>
+</ul>
+</li>
+<li><p>线性可分性</p>
+<ul>
+<li>如果存在超平面 $S$ 能将数据集的正、负实例点完全正确地划分到超平面两侧，即:<ul>
+<li>$\forall y_i&#x3D;1,\ w\cdot x_i+b&gt;0;$</li>
+<li>$\forall y_i&#x3D;-1,\ w\cdot x_i+b&lt;0.$</li>
+</ul>
+</li>
+<li>称 $T$ 为线性可分数据集(linearly sepearable dataset)</li>
+<li>否则数据集 $T$ 为线性不可分。</li>
+</ul>
+</li>
+</ol>
+<h2 id="学习策略"><a href="#学习策略" class="headerlink" title="学习策略"></a>学习策略</h2><p>锐意更新中（逃</p>
+<h2 id="算法及其实现"><a href="#算法及其实现" class="headerlink" title="算法及其实现"></a>算法及其实现</h2><p>锐意更新中（逃</p>
 
       </section>
 
@@ -252,32 +210,16 @@
       
         <nav class="article-nav">
           
-            <div class="article-nav-item layout-padding">
-  <article class="card-container article-nav-card content-padding--primary soft-size--large soft-style--box">
-    
-      <div class="card-cover" background-image-lazy data-img="/cover5.png"></div>
-    
-    <div class="card-text">
-      
-        <a href="/2022/09/23/%E7%95%99%E8%A8%80%E6%9D%BF/" itemprop="url">
-          <h2 class="card-text--title text-ellipsis">留言板</h2>
-        </a>
-      
-      <div class="card-text--row">Newer</div>
-    </div>
-  </article>
-</div>
-          
           
             <div class="article-nav-item layout-padding">
   <article class="card-container article-nav-card content-padding--primary soft-size--large soft-style--box">
     
-      <div class="card-cover" background-image-lazy data-img="/cover3.jpeg"></div>
+      <div class="card-cover" background-image-lazy data-img="/kay-tiger.png"></div>
     
     <div class="card-text">
       
-        <a href="/2022/09/20/%E7%AE%80%E5%8D%95%E5%AF%B9%E8%AF%9D%E6%A8%A1%E5%9D%97%20v1.0/" itemprop="url">
-          <h2 class="card-text--title text-ellipsis">简单对话模块 v1.0</h2>
+        <a href="/2022/11/13/intro/" itemprop="url">
+          <h2 class="card-text--title text-ellipsis">简介&amp;索引</h2>
         </a>
       
       <div class="card-text--row">Older</div>
