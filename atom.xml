@@ -6,7 +6,7 @@
   <link href="http://toneyzzz.github.io/atom.xml" rel="self"/>
   
   <link href="http://toneyzzz.github.io/"/>
-  <updated>2022-11-26T07:44:44.427Z</updated>
+  <updated>2022-11-26T07:45:08.627Z</updated>
   <id>http://toneyzzz.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://toneyzzz.github.io/2022/11/26/perceptron/"/>
     <id>http://toneyzzz.github.io/2022/11/26/perceptron/</id>
     <published>2022-11-25T16:41:26.000Z</published>
-    <updated>2022-11-26T07:44:44.427Z</updated>
+    <updated>2022-11-26T07:45:08.627Z</updated>
     
     <content type="html"><![CDATA[<h2 id="简介-感知机模型"><a href="#简介-感知机模型" class="headerlink" title="简介 - 感知机模型"></a>简介 - 感知机模型</h2><h3 id="简介"><a href="#简介" class="headerlink" title="- 简介"></a>- 简介</h3><ul><li><p>感知机是二类分类的线性分类模型，在预测时，输入实例的特征向量，输出预测特征类别(两类中的一类)。</p><ul><li>模型类别: 判别模型</li><li>学习目的: 找出能将训练数据进行线性划分的分离超平面</li><li>迭代算法：梯度下降法</li></ul><p><img src="https://s3.uuu.ovh/imgs/2022/11/26/a5b31b1fbb7f46eb.png"></p></li></ul><h3 id="定义-感知机"><a href="#定义-感知机" class="headerlink" title="- 定义: 感知机"></a>- 定义: 感知机</h3><ul><li><p>函数定义</p><p>假设输入空间 $\mathcal{X} \subseteq \mathbb{R}^n$ , 输出空间 $\mathcal{Y} &#x3D; {-1, 1}$ 。</p><p>如果用 $x &#x3D;[x_1, x_2, \dots, x_n]\in \mathcal{X}$ 表示输入实例的特征向量, $y \in \mathcal{Y}$ 表示输出实例的类别（即预测的种类）, 则每一组 $x,y$ 均具对应如下函数:</p><p>$$f(x)&#x3D;sign(w\cdot x + b)$$</p><p>该函数也被称为<code>感知机</code>。</p></li><li><p>参数解释</p><ol><li>在感知机中，$w$ 和 $b$ 为感知机模型参数:</li></ol><p>$${<br>  \begin{cases}<br>  w \in \mathbb{R}^n &amp; 权值\ (weight)\<br>  b \in \mathbb{R} &amp; 偏置\ (bias)<br>  \end{cases}}$$</p><ul><li>值得注意的是，此处的 $x$ 并非一个一维标量，而是具有n个维度的向量，因此权值 $w$ 也具有n个独立的值，$w\cdot x$ 是一个点乘结果，也就是:<ul><li>若:<ul><li>$x &#x3D;[x_1, x_2, \dots, x_n]$</li><li>$w &#x3D;[w_1, w_2, \dots, w_n]$</li></ul></li><li>则 $w\cdot x &#x3D; \sum_{i&#x3D;1}^n w_{i}x_{i} &#x3D; w_1 x_1 + w_2 x_2 + \dots + w_n x_n$</li></ul></li></ul><ol start="2"><li>$f(x)&#x3D;sign(a)$ 是符号函数，取值如下:</li></ol><p>$$sign(a)&#x3D;{<br>  \begin{cases}<br>  +1 &amp; x\leqslant 0 \<br>  -1 &amp; x&lt;0<br>  \end{cases}<br>}$$</p></li></ul><h3 id="数据集"><a href="#数据集" class="headerlink" title="- 数据集"></a>- 数据集</h3><p>  <img src="https://s3.uuu.ovh/imgs/2022/11/26/8c179ace0e193359.png"></p><ol><li><p>数据集的表示</p><ul><li>感知机所需要的数据集可以表示为：<ul><li>$T &#x3D; {(x_1,y_1),(x_2,y_2),\dots,(x_n,y_n)}$</li><li>图中的点集是拥有 2 种特征($x^{(1)},x^{(2)}$)的线性可分的数据集, 即 $x_i &#x3D; (x^{(1)}_i,x^{(2)}_i);\ y_i \in {-1, 1}$</li></ul></li><li>图中划分出两侧数据种类的直线被称为超平面 $S: w\cdot x+b&#x3D;0$ , $S$ 感知机通过训练集 $T$ 训练求得具有足够准确率的 $S$。</li></ul></li><li><p>线性可分性</p><ul><li>如果存在超平面 $S$ 能将数据集的正、负实例点完全正确地划分到超平面两侧，即:<ul><li>$\forall y_i&#x3D;1,\ w\cdot x_i+b&gt;0;$</li><li>$\forall y_i&#x3D;-1,\ w\cdot x_i+b&lt;0.$</li></ul></li><li>称 $T$ 为线性可分数据集(linearly sepearable dataset)</li><li>否则数据集 $T$ 为线性不可分。</li></ul></li></ol><h2 id="学习策略"><a href="#学习策略" class="headerlink" title="学习策略"></a>学习策略</h2><p>锐意更新中（逃</p><h2 id="算法及其实现"><a href="#算法及其实现" class="headerlink" title="算法及其实现"></a>算法及其实现</h2><p>锐意更新中（逃</p>]]></content>
     
