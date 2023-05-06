@@ -185,7 +185,7 @@
 <script type="math/tex; mode=display">T = \{(x_1, y_1), (x_2, y_2), \dots, (x_n, y_n)\}</script><h4 id="监督学习、无监督学习、半监督学习与强化学习"><a href="#监督学习、无监督学习、半监督学习与强化学习" class="headerlink" title="监督学习、无监督学习、半监督学习与强化学习"></a>监督学习、无监督学习、半监督学习与强化学习</h4><p>我在上文中提到了“有时候”，我猜你跳过了<del>（我不会告诉你它在向上3个自然段）</del>。</p>
 <p>“有时候划分标签”意味着有时候我们也不会这么干。</p>
 <p>划分，还是不划分，这是一个问题。</p>
-<p>这个问题便诞生了机器学习的两大类模型（还有个墙头草）——</p>
+<p>这个问题便诞生了机器学习的两大类模型——</p>
 <h5 id="1-监督学习-supervised-learning"><a href="#1-监督学习-supervised-learning" class="headerlink" title="1. 监督学习(supervised learning)"></a>1. 监督学习(supervised learning)</h5><p>在监督学习中，我们用完整地划分好标签的数据集让机器学习并对机器的学习成果评估，或者叫做训练(training)与测试(testing)，它们一般共用完整的训练集：</p>
 <script type="math/tex; mode=display">T = \{(x_1, y_1), (x_2, y_2), \dots, (x_n, y_n)\}</script><p>训练集(training set)与测试集(testing set)一般会从 $T$ 中以一定比例随机划分，比如，一般将随机20%个实例 (x, y) 划分到测试集中，剩下的并入训练集。</p>
 <p>监督学习的最大特征就是，我们在训练机器时就告诉它，哪些是因变量 $y$，哪些是自变量 $x$。</p>
@@ -193,15 +193,16 @@
 <p>如果数据集是一个连续曲线（一定有无限个实例），我们管这个学习过程称为『回归过程』如果数据集是有限个数据（一定是离散的），我们称为『分类过程』</p>
 <p>常见的监督学习模型有感知机(perceptron)，逻辑斯蒂回归(logistic regression)，支持向量机(support vector machine)，以及一些多层神经网络等等。</p>
 <h5 id="2-无监督学习-unsupervised-learning"><a href="#2-无监督学习-unsupervised-learning" class="headerlink" title="2. 无监督学习(unsupervised learning)"></a>2. 无监督学习(unsupervised learning)</h5><p>看完上面的监督学习，你应该能猜到了。无监督学习就是不给任何标签，你可以认为是只保留了特征向量 x，也可以认为是就干脆没有<code>有时候</code>我们做的划分。</p>
-<p>机器拿到这堆让它摸不着头脑 (如果它有的话) 的数据之后，需要通过学习过程用这些数据建立分类模型或其他结构，供新的输入预测。</p>
+<p>机器拿到这堆让它摸不着头脑 (如果它有的话) 的数据之后，需要通过学习过程用这些数据建立一个<code>分类模型</code>或其他结构，以供后续处理，或者揭示某些规律。</p>
 <p><img src="/ml_1_ul.png" width=60% /></p>
-<p>常见的无监督学习模型有聚类(clustering)，多种语义分析方法等等。</p>
-<h5 id="3-半监督学习"><a href="#3-半监督学习" class="headerlink" title="3. 半监督学习"></a>3. 半监督学习</h5><p>这是一种墙头草，讲究给部分数据实例分配标签，另外一部分只有特征向量。通常用来降低人工标签的训练成本。</p>
+<p>常见的无监督学习模型有聚类(clustering)，一些语义分析方法等等。</p>
+<h5 id="3-半监督学习"><a href="#3-半监督学习" class="headerlink" title="3. 半监督学习"></a>3. 半监督学习</h5><p>众所周知，两大类模型有三个，这是在实际处理数据时为了节约成本而发现的混合方法。</p>
+<p>具体而言，半监督学习的数据集提供者，给部分数据实例分配标签，另外一部分没有标签。通常用来降低人工标签的训练成本。</p>
 <p>实现了了gpt模型的openAI，在运用VPT方法 (通过网络上minecraft游戏速通视频训练AI玩minecraft) 的训练过程中，就运用了少量标注视频的鼠标位置信息和游戏节点，大量无标注的半监督学习。</p>
 <p>有关这个模型的更多介绍可以看<a target="_blank" rel="noopener" href="https://openai.com/research/vpt">这里</a>。</p>
-<h5 id="4-强化学习"><a href="#4-强化学习" class="headerlink" title="4. 强化学习"></a>4. 强化学习</h5><p>众所周知，两大类模型有4个。</p>
-<p>这是另一种更类似于随机碰一碰的方法。</p>
-<p>机器随机用自己的模型检测一此数据，然后根据回馈修正自己的模型，以此往复，就像你在第一次玩电子游戏一样。</p>
+<h5 id="4-强化学习-Reinforcement-learning"><a href="#4-强化学习-Reinforcement-learning" class="headerlink" title="4. 强化学习(Reinforcement learning)"></a>4. 强化学习(Reinforcement learning)</h5><p>众所周知，两大类模型有4个。</p>
+<p>这是完全不同的另一种更类似于随机碰一碰的方法。</p>
+<p>机器随机用自己的模型检测一此数据，然后根据回馈修正自己的模型，以此往复，就像你在第一次玩电子游戏一样，在可预计的短期未来，我们不会再次提到这个东西。</p>
 <h4 id="机器学习的三板斧"><a href="#机器学习的三板斧" class="headerlink" title="机器学习的三板斧"></a>机器学习的三板斧</h4><p>在经历了一些简单的线代洗礼后，如果你觉得精力充沛，如沐春风，那么恭喜你，你已经撑过了最无聊的部分。</p>
 <p>如果你已经感觉无聊透顶，或者脑容量不够用了，也恭喜你，最枯燥的部分已经过去了。</p>
 <p>我们再次回看最初讲到的整个过程的4步，现在我们要迈过第1步，进入第2步的探讨了。</p>
@@ -253,7 +254,7 @@
     <div class="card-text">
       
         <a href="/2023/05/03/ml-intro/" itemprop="url">
-          <h2 class="card-text--title text-ellipsis">引言——文科生也能看懂的机器学习</h2>
+          <h2 class="card-text--title text-ellipsis">引言 - 文科生也能看懂的机器学习</h2>
         </a>
       
       <div class="card-text--row">Older</div>

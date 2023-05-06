@@ -2,18 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://toneyzzz.github.io/2023/05/04/ml-1-basic/</loc>
+    <loc>http://toneyzzz.github.io/2023/05/03/ml-intro/</loc>
     
-    <lastmod>2023-05-05</lastmod>
+    <lastmod>2023-05-06</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://toneyzzz.github.io/2023/05/03/ml-intro/</loc>
+    <loc>http://toneyzzz.github.io/2023/05/04/ml-1-basic/</loc>
     
-    <lastmod>2023-05-04</lastmod>
+    <lastmod>2023-05-06</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -94,7 +94,7 @@
 
   <url>
     <loc>http://toneyzzz.github.io/</loc>
-    <lastmod>2023-05-05</lastmod>
+    <lastmod>2023-05-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -102,14 +102,14 @@
   
   <url>
     <loc>http://toneyzzz.github.io/tags/%E7%AE%80%E4%BB%8B/</loc>
-    <lastmod>2023-05-05</lastmod>
+    <lastmod>2023-05-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://toneyzzz.github.io/tags/%E5%BC%80%E5%8F%91%E6%97%A5%E5%BF%97/</loc>
-    <lastmod>2023-05-05</lastmod>
+    <lastmod>2023-05-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -118,21 +118,21 @@
   
   <url>
     <loc>http://toneyzzz.github.io/categories/Project-Anna/</loc>
-    <lastmod>2023-05-05</lastmod>
+    <lastmod>2023-05-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://toneyzzz.github.io/categories/%E6%80%BB%E8%A7%88/</loc>
-    <lastmod>2023-05-05</lastmod>
+    <lastmod>2023-05-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://toneyzzz.github.io/categories/%E7%BB%9F%E8%AE%A1%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95/</loc>
-    <lastmod>2023-05-05</lastmod>
+    <lastmod>2023-05-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
