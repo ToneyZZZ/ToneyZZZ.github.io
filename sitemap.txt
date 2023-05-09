@@ -1,3 +1,4 @@
+http://toneyzzz.github.io/2023/05/09/ml-2-lr/
 http://toneyzzz.github.io/2023/05/04/ml-1-basic/
 http://toneyzzz.github.io/2023/05/03/ml-intro/
 http://toneyzzz.github.io/2022/11/26/perceptron/
