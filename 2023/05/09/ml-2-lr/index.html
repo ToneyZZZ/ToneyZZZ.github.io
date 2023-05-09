@@ -177,11 +177,13 @@ x \in (1, 4)\ \Leftrightarrow\ 1 < x < 4
 </ul>
 </li>
 </ul>
-<h4 id="局部最小-大-值-amp-全局最小-大-值"><a href="#局部最小-大-值-amp-全局最小-大-值" class="headerlink" title="局部最小(大)值 &amp; 全局最小(大)值"></a>局部最小(大)值 &amp; 全局最小(大)值</h4><h2 id="2-线性回归的模型"><a href="#2-线性回归的模型" class="headerlink" title="2. 线性回归的模型"></a>2. 线性回归的模型</h2><h4 id="2-1-基本信息"><a href="#2-1-基本信息" class="headerlink" title="2.1 基本信息"></a>2.1 基本信息</h4><p>在讲述模型的细节前，我们首先明确此刻的目标：</p>
+<h4 id="局部最小-大-值-amp-全局最小-大-值"><a href="#局部最小-大-值-amp-全局最小-大-值" class="headerlink" title="局部最小(大)值 &amp; 全局最小(大)值"></a>局部最小(大)值 &amp; 全局最小(大)值</h4><p>反正还没用到，绝赞咕咕中</p>
+<h2 id="2-线性回归的模型"><a href="#2-线性回归的模型" class="headerlink" title="2. 线性回归的模型"></a>2. 线性回归的模型</h2><h4 id="2-1-基本信息"><a href="#2-1-基本信息" class="headerlink" title="2.1 基本信息"></a>2.1 基本信息</h4><p>在讲述模型的细节前，我们首先明确此刻的目标：</p>
 <blockquote>
-<p>给定一个拥有一个维度的两类标签（x的维度可以很多，y只有一维且可能是2个值之一）的数据集。线性回归希望用一条更广义的“直线”，也就是线性函数，去足够准确地划分这个数据集，如下图所示：</p>
+<p>给定一个拥有一个维度的两类标签（x的维度可以很多，y只有一维且可能是2个值之一）的数据集。线性回归希望用一条更广义的“直线”，也就是线性函数，去足够准确地划分这个数据集，下图仅做参考：</p>
 </blockquote>
-<p><img src="/ml_1_clf.png" alt=""><br>所以，我们可以在这个前提下判断出很多我们需要的信息：</p>
+<p><img src="https://s3.uuu.ovh/imgs/2022/11/26/a5b31b1fbb7f46eb.png" width=60%/></p>
+<p>所以，我们可以在这个前提下判断出很多我们需要的信息：</p>
 <ul>
 <li>模型：监督学习(Supervised learning)</li>
 <li>使用数据集：$T = {(\mathbf{x}<em>i, y_i)}</em>{i=1}^m $<ul>
@@ -197,8 +199,20 @@ x \in (1, 4)\ \Leftrightarrow\ 1 < x < 4
 </li>
 </ul>
 <h4 id="2-2-从决定论的角度理解损失函数"><a href="#2-2-从决定论的角度理解损失函数" class="headerlink" title="2.2 从决定论的角度理解损失函数"></a>2.2 从决定论的角度理解损失函数</h4><p>在标准的线性回归中，我们采用平方损失函数的平均值：</p>
-<script type="math/tex; mode=display">cost = \frac{1}{m}\sum_{i=1}^{m}(f_\mathbf{w,b}(\mathbf{x})-y_i)^2</script><p>在算法中，机器需要做的事情就是：寻找到一个让损失函数最小的解(包含一组 $\mathbb{w}$ 和 $b$), 如果计算量太大，我们退而求其次，选择准确率足够高，也就是足够接近完美划分的解。</p>
-<h4 id="2-3-从概率论的角度理解损失函数"><a href="#2-3-从概率论的角度理解损失函数" class="headerlink" title="2.3 从概率论的角度理解损失函数"></a>2.3 从概率论的角度理解损失函数</h4><p>我们假设这个数据集的 $\mathbf{x}$ 与 $y$ 遵循这样的分布规律:<br>$y = \mathbf{x}^{\top}\mathbf{w} + e$, where $e ~{} \mathcal{N}(0, \sigma^2)$</p>
+<script type="math/tex; mode=display">cost = \frac{1}{m}\sum_{i=1}^{m}(f_\mathbf{w,b}(\mathbf{x_i})-y_i)^2</script><p>有关这个损失函数的讲解我们已经在上一篇中做过，请自行查找。</p>
+<p>在实际的运算中，机器需要做的事情就是：寻找到一个让损失函数最小的解(包含一组 $\mathbb{w}$ 和 $b$), 如果计算量太大，我们退而求其次，选择准确率足够高，也就是足够接近完美划分的解。</p>
+<h4 id="2-3-从概率论的角度理解损失函数"><a href="#2-3-从概率论的角度理解损失函数" class="headerlink" title="2.3 从概率论的角度理解损失函数"></a>2.3 从概率论的角度理解损失函数</h4><p>我们假设这个数据集的 $\mathbf{x}$ 与 $y$ 遵循这样的分布规律:<br>$y = \mathbf{w}^{\top}\mathbf{x} + e$, 其中 $e \sim \mathcal{N}(0, \sigma^2)$, 是一个正太分布的随机数, 其取值可能性分布如下图所示：<br><img src="/ml_2/nd.png" width=60% /></p>
+<p>因为 $e$ 遵循正态分布，因此我们可以通过计算，将 $y$ 在 $w,x$ 取值特定情况下分布的概率也看作是另一个正态分布函数：</p>
+<script type="math/tex; mode=display">p(y|\mathbf{x,w}) = \mathcal{N}(\mathbf{w}^{\top}\mathbf{x}, \sigma^2)</script><p>在此时，机器从训练集中学习的过程，可以看作是在通过实例点中寻找这个统计分布的具体参数的过程。我们称这个过程为极大似然估计(Maximum Likehood Estimation, MLE), 通常取对数来进行操作，此处argmax的意思是后续式子取最大值时对应的w。</p>
+<script type="math/tex; mode=display">\mathbf{w}_{MLE} = \arg\max\limits_{\mathbf{w}}\log\mathcal{L}(\mathbf{w}|D)</script><p>其中：</p>
+<script type="math/tex; mode=display">\begin{aligned}\log\mathcal{L}(\mathbf{w}|D) 
+& = log(\prod_{i=1}^{m}p(y_i|\mathbf{x_i},\mathbf{w})) & \text{[独立概率分布]}\\
+& = \sum_{i=1}^m \log\mathcal{N}(\mathbf{w}^{\top}\mathbf{x}, \sigma^2) & \text{[log运算性质]} \\
+& = -m\log(\sigma\sqrt{2\pi}) - \frac{1}{2\sigma^2}\sum_{i=1}^{m}(y_i - \mathbf{w}^{\top}\mathbf{x_i})^2 & \text{[硬拆正态分布定义]}
+\end{aligned}</script><p>我们抛去这个式子中与我们关心的机器要学习的 $\mathbf{w}$ 不相关的项, 然后正负颠倒导致取最大的操作颠倒为取最小的操作，于是，等式变为：</p>
+<script type="math/tex; mode=display">\mathbf{w}_{MLE} = \arg\min\limits_{\mathbf{w}}\frac{1}{2\sigma^2}\sum_{i=1}^{m}(y_i - \mathbf{w}^{\top}\mathbf{x_i})^2</script><p>由于 $m$ 和 $\sigma$ 都是固定参数，我们可以说需要最小化的函数都是$\sum_{i=1}^{m}(y_i - \mathbf{w}^{\top}\mathbf{x_i})^2$.</p>
+<p>既然从两个视角相互印证了：我们的损失函数能带领我们走向那个优秀的划分，那么，该怎么做呢？</p>
+<h2 id="3-线性回归的学习过程"><a href="#3-线性回归的学习过程" class="headerlink" title="3. 线性回归的学习过程"></a>3. 线性回归的学习过程</h2><p>绝赞咕咕中</p>
 
       </section>
 
@@ -320,14 +334,14 @@ x \in (1, 4)\ \Leftrightarrow\ 1 < x < 4
     <ul class="categorys-list">
       
         <li class="categorys-list-item">
-          <a href="/categories/Project-Anna/">
-            Project Anna (5)
+          <a href="/categories/%E6%80%BB%E8%A7%88/">
+            总览 (2)
           </a>
         </li>
       
         <li class="categorys-list-item">
-          <a href="/categories/%E6%80%BB%E8%A7%88/">
-            总览 (2)
+          <a href="/categories/Project-Anna/">
+            Project Anna (5)
           </a>
         </li>
       
